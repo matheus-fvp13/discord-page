@@ -1,0 +1,57 @@
+header {
+    height: 505px;
+    background-image: url('/assets/images/header-background.svg');
+}
+
+.container {
+    max-width: 95%;
+    margin-inline: auto;
+}
+
+.header-container {
+    padding: 0 1rem;
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#header-title, 
+.header-discord-description {
+    color: #FFF;
+}
+
+#header-title {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.header-discord-description {
+    font-weight: 400;
+    font-weight: 1rem;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#download-button,
+#open-browser-button {
+    height: 3.4rem;
+    border-radius: 1.75rem;
+    border-style: none;
+    font-size: 1rem;
+}
+
+#download-button {
+    background-color: #FFF;
+}
+
+#open-browser-button {
+    background-color: #000;
+    color: #FFF;
+}
