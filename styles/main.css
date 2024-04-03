@@ -3,9 +3,20 @@ header {
     background-image: url('/assets/images/header-background.svg');
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .container {
     max-width: 95%;
     margin-inline: auto;
+}
+
+#header-title,
+#section-04.section-title {
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
 }
 
 .header-container {
@@ -22,9 +33,7 @@ header {
 }
 
 #header-title {
-    font-family: "Luckiest Guy", cursive;
     font-weight: 400;
-    font-style: normal;
     text-transform: uppercase;
 }
 
@@ -55,3 +64,42 @@ header {
     background-color: #000;
     color: #FFF;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-container {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#section-04.section-title {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#section-02, #section-04 {
+    background-color: #F6F6F6;
+}
+
+footer {
+    background-color: #000;
+    height: 8.75rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-discord-image  {
+    max-width: 50%;
+}
+
