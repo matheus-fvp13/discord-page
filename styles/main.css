@@ -1,6 +1,7 @@
 header {
     height: 505px;
     background-image: url('/assets/images/header-background.svg');
+    background-repeat: no-repeat;
 }
 
 img {
